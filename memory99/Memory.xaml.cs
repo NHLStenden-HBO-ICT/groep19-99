@@ -10,37 +10,56 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using static memory99.Memory;
 
+
+string[] Cards = { "Dier 1", "Dier 2", "Dier 3", "Dier 4", "Dier 5", "Dier 6" };
+
+var rnd = new Random();
+var shuffledCards = Cards.OrderBy(a => rnd.Next());
+//Do something with shuffledCards
+
+for (int i = 0; i < Cards.Length; i++)
+{
+    swap(ref Cards[i], ref Cards[i + rnd.Next(Cards.Length - i)]);
+}
+
+void swap(ref string a, ref string b)
+{
+    string t = a;
+    a = b;
+    b = t;
+}
+
 namespace memory99
 {
-
+    
     /// <summary>
     /// Interaction logic for Memory.xaml
     /// </summary>
     public partial class Memory : Window
     {
+        
         public Memory()
         {
-
+            
         }
 
     }
 
 }
 
-public class Card
-{
-    public string? Name { get; set; }
-    public int? Value { get; set; }
-
-}
 
 
 
+
+
+
+/*
 var Cards = new List<Card>()
 {
     new Card() { Name = "Dier 1", Value = 1 },
@@ -50,11 +69,14 @@ var Cards = new List<Card>()
     new Card() { Name = "Dier 5", Value = 5 },
     new Card() { Name = "Dier 6", Value = 6 }
 };
+*/
 
 
 
-var rnd = new Random();
-var shuffledCards = Cards.OrderBy(a => rnd.Next());
-//Do something with shuffledCards
 
-Card.cs(shuffledCards, Cards);
+
+
+
+
+
+
