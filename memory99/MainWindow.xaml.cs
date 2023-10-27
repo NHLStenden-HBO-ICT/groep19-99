@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -15,14 +16,43 @@ using System.Windows.Shapes;
 
 namespace memory99
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        //bool muziek = false;
+
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+
+        public void MemoryDierenThema_Click(object sender, RoutedEventArgs e)
+        {
+            MemoryDierenThema Memory = new MemoryDierenThema();
+            Memory.Show();
+            Close();
+        }
+
+        private void Uitleg_Click(object sender, RoutedEventArgs e)
+        {
+            UitlegScherm uitlegScherm = new UitlegScherm();
+            uitlegScherm.Show();
+            Close();
+        }
+
+        private void Geluid_Click(object sender, RoutedEventArgs e)
+        {
+            //if (muziek == false)
+            //{
+            //    mediaPlayer.Play();
+            //    muziek = true;
+            //}
+
+            //else if (muziek == true)
+            //{
+            //    mediaPlayer.Stop();
+            //    muziek = false;
+            //}
         }
     }
 }

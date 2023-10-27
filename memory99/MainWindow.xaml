@@ -6,7 +6,84 @@
         xmlns:local="clr-namespace:memory99"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBlock Text="hallo" TextAlignment="Center" FontSize="80"/>
+    <Grid Background="#fff8f5">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30*"/>
+            <RowDefinition Height="35*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+
+        <!-- titel -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="60*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="15*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Column="1" Text="Memory" Foreground="#bf4d4d" TextAlignment="Center" FontSize="180" Grid.ColumnSpan="2" FontFamily="Huisstijl/Bree_Serif.zip"/>
+
+            <Image Source="Huisstijl/CarrotGamesLogo.png" Grid.Column="3"/>
+        </Grid>
+        
+        <!-- thema's-->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="5*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="15*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="MemoryDierenThema" Grid.Column="1" Background="#ff6666" Content="dieren" Foreground="White" FontSize="20" Focusable="True" Click="MemoryDierenThema_Click"/>
+            <Button Grid.Column="3" Background="#ffbc37" Content="nijntje" Foreground="White" FontSize="20"/>
+            <Button Grid.Column="5" Background="#ff3477" Content="+" Foreground="White" FontSize="20"/>
+        </Grid>
+        
+        <!-- namen invoeren -->
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="15*"/>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="35*"/>
+                <ColumnDefinition Width="15*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Grid.Column="1" Text="Naam: " FontSize="42" Margin="50" Background="#fff8f5" BorderBrush="#ff3477" VerticalAlignment="Center"/>
+            <TextBox Grid.Column="2" Text="Naam: " FontSize="42" Margin="50" Background="#fff8f5" BorderBrush="#ffbc37" VerticalAlignment="Center"/>
+        </Grid>
+        
+        <!-- icoontjes -->
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.5*"/>
+                <ColumnDefinition Width="7.5*"/>
+                <ColumnDefinition Width="70*"/>
+                <ColumnDefinition Width="7.5*"/>
+                <ColumnDefinition Width="2.5*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="Geluid" Grid.Column="1" BorderThickness="0" Background="Transparent" Click="Geluid_Click">
+                <StackPanel>
+                    <Image Source="/Huisstijl/LuidsprekerIcon.png" />
+                    <!--<MediaElement x:Name="mediaPlayer" Source="muziekje.mp3" LoadedBehavior="Manual"/>-->
+
+                </StackPanel>
+            </Button>
+
+            <Button x:Name="Uitleg" Grid.Column="3" BorderThickness="0" Background="Transparent" Click="Uitleg_Click">
+                <StackPanel>
+                    <Image Source="/Huisstijl/UitlegIcon.png"/>
+                </StackPanel>
+            </Button>
+            
+        </Grid>
     </Grid>
 </Window>
