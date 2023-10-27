@@ -23,6 +23,9 @@ namespace memory99
         public MainWindow()
         {
             InitializeComponent();
+            MemoryWindow game = new MemoryWindow();
+            game.Visibility = Visibility.Visible;
+            this.Visibility = Visibility.Hidden;
         }
     }
 }
