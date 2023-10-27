@@ -7,4 +7,16 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Huisstijl\CarrotGamesLogo.png" />
+    <None Remove="Huisstijl\LuidsprekerIcon.png" />
+    <None Remove="Huisstijl\UitlegIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Huisstijl\CarrotGamesLogo.png" />
+    <Resource Include="Huisstijl\LuidsprekerIcon.png" />
+    <Resource Include="Huisstijl\UitlegIcon.png" />
+  </ItemGroup>
+
 </Project>
