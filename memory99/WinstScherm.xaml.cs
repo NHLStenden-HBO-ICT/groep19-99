@@ -19,9 +19,11 @@ namespace memory99
     /// </summary>
     public partial class WinstScherm : Window
     {
-        public WinstScherm()
+        public WinstScherm(String Winnaar, int ScoreWinnaar, String Verliezer, int ScoreVerliezer)
         {
             InitializeComponent();
+
+
         }
     }
 }

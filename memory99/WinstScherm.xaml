@@ -8,7 +8,7 @@
         Title="WinstScherm" Height="854" Width="1440">
     <Grid>
         <Canvas Background="#fff8f5"/>
-        <TextBlock Text="Winnaar" TextAlignment="Center" FontSize="128"/>
+        <TextBlock Text="Winnaar" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" TextAlignment="Center" FontSize="128"/>
         <Image x:Name="logo" Source="images/logo.png" Width="180" Height="164" HorizontalAlignment="Right" VerticalAlignment="Top"/>
     </Grid>
 </Window>

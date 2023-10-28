@@ -38,9 +38,12 @@ namespace memory99
         // <summary>
         // Constructs a new Memory Game with a deck of cards.
         // </summary>
-        public MemoryWindow()
+        public MemoryWindow(String Naam1, String Naam2)
         {
             InitializeComponent();
+            //
+            Speler1.Content = Naam1;
+            Speler2.Content = Naam2;
             // add all images in the list
             images = AddImages();
             // preset all cards to not flipped

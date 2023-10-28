@@ -23,5 +23,9 @@ namespace memory99
         {
             InitializeComponent();
         }
+        private void GaTerug(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

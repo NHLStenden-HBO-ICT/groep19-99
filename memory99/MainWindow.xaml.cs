@@ -28,16 +28,14 @@ namespace memory99
 
         public void MemoryDierenThema_Click(object sender, RoutedEventArgs e)
         {
-            Memory memory = new Memory();
+            MemoryWindow memory = new MemoryWindow(Speler1.Text,Speler2.Text);
             memory.Visibility = Visibility.Visible;
-            this.Visibility = Visibility.Hidden;
         }
 
         private void Uitleg_Click(object sender, RoutedEventArgs e)
         {
             UitlegScherm uitlegScherm = new UitlegScherm();
             uitlegScherm.Visibility = Visibility.Visible;
-            this.Visibility = Visibility.Hidden;
         }
 
         private void Geluid_Click(object sender, RoutedEventArgs e)
