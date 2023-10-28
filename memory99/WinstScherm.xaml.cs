@@ -22,8 +22,10 @@ namespace memory99
         public WinstScherm(String Winnaar, int ScoreWinnaar, String Verliezer, int ScoreVerliezer)
         {
             InitializeComponent();
-
-
+            Regel1.Content = "Winnaar: " + Winnaar;
+            Regel2.Content = "Score: " + ScoreWinnaar;
+            Regel3.Content = "Verliezer: " + Verliezer;
+            Regel4.Content = "Score: " + ScoreVerliezer;
         }
     }
 }

@@ -6,9 +6,7 @@
         xmlns:local="clr-namespace:memory99"
         mc:Ignorable="d"
         Title="UitlegScherm" Height="854" Width="1440">
-    <Grid>
-        <!--achtergrond-->
-        <Canvas Background="#fff8f5"/>
+    <Grid Background="#fff8f5">
         <!--Titel-->
         <TextBlock Text="Uitleg" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" TextAlignment="Center" FontSize="128"/>
         <!--text-->
