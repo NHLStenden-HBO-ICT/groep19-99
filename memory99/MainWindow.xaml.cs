@@ -23,9 +23,36 @@ namespace memory99
         public MainWindow()
         {
             InitializeComponent();
-            MemoryWindow game = new MemoryWindow();
-            game.Visibility = Visibility.Visible;
+        }
+
+
+        public void MemoryDierenThema_Click(object sender, RoutedEventArgs e)
+        {
+            Memory memory = new Memory();
+            memory.Visibility = Visibility.Visible;
             this.Visibility = Visibility.Hidden;
+        }
+
+        private void Uitleg_Click(object sender, RoutedEventArgs e)
+        {
+            UitlegScherm uitlegScherm = new UitlegScherm();
+            uitlegScherm.Visibility = Visibility.Visible;
+            this.Visibility = Visibility.Hidden;
+        }
+
+        private void Geluid_Click(object sender, RoutedEventArgs e)
+        {
+            //if (muziek == false)
+            //{
+            //    mediaPlayer.Play();
+            //    muziek = true;
+            //}
+
+            //else if (muziek == true)
+            //{
+            //    mediaPlayer.Stop();
+            //    muziek = false;
+            //}
         }
     }
 }

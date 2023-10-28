@@ -96,12 +96,28 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="MemoryWindow.xaml.cs" />
+    <None Remove="Font\BreeSerif-Regular.otf" />
+    <None Remove="Huisstijl\CarrotGamesLogo.png" />
+    <None Remove="Huisstijl\LuidsprekerIcon.png" />
+    <None Remove="Huisstijl\UitlegIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
     <Compile Update="MainWindow.xaml.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
+    <Resource Include="Font\BreeSerif-Regular.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Huisstijl\CarrotGamesLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Huisstijl\LuidsprekerIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Huisstijl\UitlegIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
