@@ -7,9 +7,6 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Compile Remove="Memory.xaml.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Remove="images\dieren achterkant speler 1.png" />
