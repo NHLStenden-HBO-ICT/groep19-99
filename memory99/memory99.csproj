@@ -7,16 +7,114 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+
   <ItemGroup>
+    <None Remove="images\dieren achterkant speler 1.png" />
+    <None Remove="images\dieren achterkant speler 2.png" />
+    <None Remove="images\dieren ezel steen.png" />
+    <None Remove="images\dieren honden steen.png" />
+    <None Remove="images\dieren konijn steen.png" />
+    <None Remove="images\dieren paarden steen.png" />
+    <None Remove="images\dieren schaap steen.png" />
+    <None Remove="images\dieren varken steen.png" />
+    <None Remove="images\friese nijntje steen.png" />
+    <None Remove="images\jarige nijntje steen.png" />
+    <None Remove="images\kruis symbool.png" />
+    <None Remove="images\logo.png" />
+    <None Remove="images\luidspreker.png" />
+    <None Remove="images\nijntje achterkant steen speler 1.png" />
+    <None Remove="images\nijntje achterkant steen speler 2.png" />
+    <None Remove="images\nijntje met ballon steen.png" />
+    <None Remove="images\nijntje met knuffel steen.png" />
+    <None Remove="images\nijntje met schildpadden steen.png" />
+    <None Remove="images\return symbool.png" />
+    <None Remove="images\spelende nijntje steen.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\dieren achterkant speler 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\dieren achterkant speler 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\dieren ezel steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\dieren honden steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\dieren konijn steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\dieren paarden steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\dieren schaap steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\dieren varken steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\friese nijntje steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\jarige nijntje steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kruis symbool.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\luidspreker.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\nijntje achterkant steen speler 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\nijntje achterkant steen speler 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\nijntje met ballon steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\nijntje met knuffel steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\nijntje met schildpadden steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\return symbool.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\spelende nijntje steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="MemoryWindow.xaml.cs" />
+    <None Remove="Font\BreeSerif-Regular.otf" />
     <None Remove="Huisstijl\CarrotGamesLogo.png" />
     <None Remove="Huisstijl\LuidsprekerIcon.png" />
     <None Remove="Huisstijl\UitlegIcon.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Huisstijl\CarrotGamesLogo.png" />
-    <Resource Include="Huisstijl\LuidsprekerIcon.png" />
-    <Resource Include="Huisstijl\UitlegIcon.png" />
+    <Compile Update="MainWindow.xaml.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Resource Include="Font\BreeSerif-Regular.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Huisstijl\CarrotGamesLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Huisstijl\LuidsprekerIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Huisstijl\UitlegIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
 </Project>
