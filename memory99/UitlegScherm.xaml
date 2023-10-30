@@ -6,10 +6,10 @@
         xmlns:local="clr-namespace:memory99"
         mc:Ignorable="d"
         Title="UitlegScherm" Height="854" Width="1440">
-    <Grid>
-        <!--achtergrond, titel, text, logo en kruis-->
-        <Canvas Background="#fff8f5"/>
+    <Grid Background="#fff8f5">
+        <!--Titel-->
         <TextBlock Text="Uitleg" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" TextAlignment="Center" FontSize="128"/>
+        <!--text-->
         <TextBlock Text=" U kunt de namen van de spelers wijzigen door op de balkjes te klikken." FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" VerticalAlignment="Top"  FontSize="40" Margin="0,235,0,0"/>
         <TextBlock Text=" U kunt op de thema’s klikken voor verschillende stenen." FontSize="40" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" VerticalAlignment="Top" Margin="0,293,0,0"/>
         <TextBlock Text=" U kunt in de hoeken zien welke speler aan de beurt is." FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="40" VerticalAlignment="Top" Margin="0,351,0,0"/>
@@ -17,7 +17,11 @@
         <TextBlock Text=" Als deze hetzelfde zijn mag u nog een keer." FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="40" VerticalAlignment="Top" Margin="0,457,0,0"/>
         <TextBlock Text=" U kunt het spel overnieuw beginnen door op de return knop te drukken." FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="40" VerticalAlignment="Top" Margin="0,510,0,0"/>
         <TextBlock Text=" U kunt terug naar het keuzemenu door op het kruisje te drukken." FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="40" VerticalAlignment="Top" Margin="0,563,0,0"/>
+        <!--logo-->
         <Image x:Name="logo" Source="images/logo.png" Width="180" Height="164" HorizontalAlignment="Right" VerticalAlignment="Top"/>
-        <Image x:Name="kruis" Source="images/kruis symbool.png" Width="100" Height="95" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="1281,686,0,0"/>
+        <!--kruis-->
+        <Button Click="GaTerug" Margin="1281,686,0,0" Background="Transparent" BorderThickness="0" Width="100" Height="95">
+            <Image x:Name="kruis" Source="images/kruis symbool.png"  Width="100" Height="95" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        </Button>
     </Grid>
 </Window>
