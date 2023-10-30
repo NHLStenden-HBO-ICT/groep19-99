@@ -226,6 +226,17 @@ namespace memory99
                     return new BitmapImage(new Uri("/images/dieren achterkant speler 2.png", UriKind.Relative));
                 }
             }
+            else if (thema == "Onderwater")
+            {
+                if (speler == 1)
+                {
+                    return new BitmapImage(new Uri("/images/onderwater achterkant steen speler 1.png", UriKind.Relative));
+                }
+                else
+                {
+                    return new BitmapImage(new Uri("/images/onderwater achterkant steen speler 2.png", UriKind.Relative));
+                }
+            }
             return new BitmapImage(new Uri("/images/logo.png", UriKind.Relative));
         }
 
@@ -249,6 +260,15 @@ namespace memory99
                 deck.Add(new BitmapImage(new Uri("/images/dieren paarden steen.png", UriKind.Relative)));
                 deck.Add(new BitmapImage(new Uri("/images/dieren schaap steen.png", UriKind.Relative)));
                 deck.Add(new BitmapImage(new Uri("/images/dieren varken steen.png", UriKind.Relative)));
+            }
+            else if (thema == "Onderwater")
+            {
+                deck.Add(new BitmapImage(new Uri("/images/henkie de haai steen.png", UriKind.Relative)));
+                deck.Add(new BitmapImage(new Uri("/images/krab steen.png", UriKind.Relative)));
+                deck.Add(new BitmapImage(new Uri("/images/kwal steen.png", UriKind.Relative)));
+                deck.Add(new BitmapImage(new Uri("/images/schilpad steen.png", UriKind.Relative)));
+                deck.Add(new BitmapImage(new Uri("/images/walrus steen.png", UriKind.Relative)));
+                deck.Add(new BitmapImage(new Uri("/images/zeester steen.png", UriKind.Relative)));
             }
             return deck;
         }

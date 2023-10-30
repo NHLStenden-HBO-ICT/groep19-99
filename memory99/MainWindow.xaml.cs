@@ -45,6 +45,15 @@ namespace memory99
             memory.Width = this.Width;
             memory.Visibility = Visibility.Visible;
         }
+        private void MemoryOnderwaterThema_Click(object sender, RoutedEventArgs e)
+        {
+            MemoryWindow memory = new MemoryWindow(Speler1.Text, Speler2.Text, "Onderwater");
+            memory.Left = this.Left;
+            memory.Top = this.Top;
+            memory.Height = this.Height;
+            memory.Width = this.Width;
+            memory.Visibility = Visibility.Visible;
+        }
 
         private void Uitleg_Click(object sender, RoutedEventArgs e)
         {
