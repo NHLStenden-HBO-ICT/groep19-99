@@ -18,8 +18,11 @@
     <None Remove="images\dieren schaap steen.png" />
     <None Remove="images\dieren varken steen.png" />
     <None Remove="images\friese nijntje steen.png" />
+    <None Remove="images\henkie de haai steen.png" />
     <None Remove="images\jarige nijntje steen.png" />
+    <None Remove="images\krab steen.png" />
     <None Remove="images\kruis symbool.png" />
+    <None Remove="images\kwal steen.png" />
     <None Remove="images\logo.png" />
     <None Remove="images\luidspreker.png" />
     <None Remove="images\nijntje achterkant steen speler 1.png" />
@@ -27,8 +30,13 @@
     <None Remove="images\nijntje met ballon steen.png" />
     <None Remove="images\nijntje met knuffel steen.png" />
     <None Remove="images\nijntje met schildpadden steen.png" />
+    <None Remove="images\onderwater achterkant steen speler 1.png" />
+    <None Remove="images\onderwater achterkant steen speler 2.png" />
     <None Remove="images\return symbool.png" />
+    <None Remove="images\schilpad steen.png" />
     <None Remove="images\spelende nijntje steen.png" />
+    <None Remove="images\walrus steen.png" />
+    <None Remove="images\zeester steen.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -59,10 +67,19 @@
     <Resource Include="images\friese nijntje steen.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="images\henkie de haai steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="images\jarige nijntje steen.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="images\krab steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="images\kruis symbool.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\kwal steen.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="images\logo.png">
@@ -86,10 +103,22 @@
     <Resource Include="images\nijntje met schildpadden steen.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="images\onderwater achterkant steen speler 2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="images\return symbool.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+    <Resource Include="images\schilpad steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
     <Resource Include="images\spelende nijntje steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\walrus steen.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="images\zeester steen.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Resource Include="MemoryWindow.xaml.cs" />
@@ -97,6 +126,12 @@
     <None Remove="Huisstijl\CarrotGamesLogo.png" />
     <None Remove="Huisstijl\LuidsprekerIcon.png" />
     <None Remove="Huisstijl\UitlegIcon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\onderwater achterkant steen speler 1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
