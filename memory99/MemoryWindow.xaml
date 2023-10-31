@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:memory99"
         mc:Ignorable="d"
         Title="MemoryDierenThema" Height="600" Width="800">
-    <Grid x:Name="MemoryGrid">
+    <Grid Background="#fff8f5" x:Name="MemoryGrid">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="10*" />
             <ColumnDefinition Width="20*" />
@@ -27,6 +27,8 @@
             <RowDefinition Height="20*" />
             <RowDefinition Height="10*" />
         </Grid.RowDefinitions>
+        <Label x:Name ="Speler1" Grid.Column="1" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42" Margin="10,0,10,0" Background="Transparent" BorderBrush="#ff3477" VerticalAlignment="Center" Height="80" Width="200"/>
+        <Label x:Name ="Speler2" Grid.Column="7" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42" Margin="10,0,10,0" Background="Transparent" BorderBrush="#ffbc37" VerticalAlignment="Center" Height="80" Width="200"/>
         <Button x:Name="b1" Click="CheckImage" Grid.Column="1" Grid.Row="1">
             <Image></Image>
         </Button>
@@ -63,5 +65,13 @@
         <Button x:Name="b12" Click="CheckImage" Grid.Column="7" Grid.Row="5">
             <Image></Image>
         </Button>
+        <!--logo-->
+        <Image x:Name="logo" Grid.Column="8" Source="images/logo.png" Width="90" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <!--kruis-->
+        <Border Grid.Column="8" Grid.Row="6" Width="60" Height="60">
+        <Button Click="GaTerug" Background="Transparent" BorderThickness="0" HorizontalAlignment="Center" VerticalAlignment="Center" Width="60" Height="60">
+            <Image x:Name="kruis" Source="images/kruis symbool.png"  Width="60" Height="60"/>
+        </Button>
+        </Border>
     </Grid>
 </Window>

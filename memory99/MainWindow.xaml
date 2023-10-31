@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:memory99"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="854" Width="1440">
     <Grid Background="#fff8f5" x:Name="MainGrid">
 
         <Grid.RowDefinitions>
@@ -25,11 +25,11 @@
                 <ColumnDefinition Width="15*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock Grid.Column="1" Text="Memory" Foreground="#bf4d4d" TextAlignment="Center" FontSize="180" Grid.ColumnSpan="2" FontFamily="Huisstijl/Bree_Serif.zip"/>
+            <TextBlock Grid.Column="1" Text="Memory" Foreground="#bf4d4d" TextAlignment="Center" FontSize="180" Grid.ColumnSpan="2" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif"/>
 
             <Image Source="Huisstijl/CarrotGamesLogo.png" Grid.Column="3"/>
         </Grid>
-        
+
         <!-- thema's-->
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
@@ -42,11 +42,11 @@
                 <ColumnDefinition Width="15*"/>
             </Grid.ColumnDefinitions>
 
-            <Button x:Name="MemoryDierenThema" Grid.Column="1" Background="#ff6666" Content="dieren" Foreground="White" FontSize="20" Focusable="True" Click="MemoryDierenThema_Click"/>
-            <Button Grid.Column="3" Background="#ffbc37" Content="nijntje" Foreground="White" FontSize="20"/>
-            <Button Grid.Column="5" Background="#ff3477" Content="+" Foreground="White" FontSize="20"/>
+            <Button x:Name="MemoryDierenThema" Grid.Column="1" Background="#ff6666" Content="Dieren" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="White" FontSize="50" Focusable="True" Click="MemoryDierenThema_Click"/>
+            <Button Grid.Column="3" Background="#ffbc37" Content="Nijntje" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="White" FontSize="50" Click="MemoryNijntjeThema_Click"/>
+            <Button Grid.Column="5" Background="#ff3477" Content="Onderwater" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="White" FontSize="50" Click="MemoryOnderwaterThema_Click"/>
         </Grid>
-        
+
         <!-- namen invoeren -->
         <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
@@ -56,10 +56,12 @@
                 <ColumnDefinition Width="15*"/>
             </Grid.ColumnDefinitions>
 
-            <TextBox Grid.Column="1" Text="Naam: " FontSize="42" Margin="50" Background="#fff8f5" BorderBrush="#ff3477" VerticalAlignment="Center"/>
-            <TextBox Grid.Column="2" Text="Naam: " FontSize="42" Margin="50" Background="#fff8f5" BorderBrush="#ffbc37" VerticalAlignment="Center"/>
+            <Label Grid.Column="1" Content="Naam:" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42"/>
+            <TextBox x:Name ="Speler1" Grid.Column="1" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42" Margin="50,80,50,0" Background="#fff8f5" BorderBrush="#ff3477" VerticalAlignment="Top"/>
+            <Label Grid.Column="2" Content="Naam:" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42"/>
+            <TextBox x:Name ="Speler2" Grid.Column="2" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42" Margin="50,80,50,0" Background="#fff8f5" BorderBrush="#ffbc37" VerticalAlignment="Top"/>
         </Grid>
-        
+
         <!-- icoontjes -->
         <Grid Grid.Row="3">
             <Grid.ColumnDefinitions>
@@ -83,7 +85,7 @@
                     <Image Source="/Huisstijl/UitlegIcon.png"/>
                 </StackPanel>
             </Button>
-            
+
         </Grid>
     </Grid>
 </Window>
