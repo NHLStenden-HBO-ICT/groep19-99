@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:memory99"
         mc:Ignorable="d"
-        Title="MainWindow" Height="854" Width="1440">
+        Title="MainWindow" Height="854" Width="1440" WindowState="Maximized" WindowStyle="None">
     <Grid Background="#fff8f5" x:Name="MainGrid">
 
         <Grid.RowDefinitions>
