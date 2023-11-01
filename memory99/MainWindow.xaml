@@ -87,8 +87,8 @@
                     <Image Source="/Huisstijl/UitlegIcon.png"/>
                 </StackPanel>
             </Button>
-            
-            <Button x:Name="Afsluiten" Grid.Column="5" Background="Transparent" Click="Spel_Sluiten">
+
+            <Button x:Name="Afsluiten" Grid.Column="5" BorderThickness="0" Background="Transparent" Click="Spel_Sluiten">
                 <StackPanel>
                     <Image Source="/images/kruis symbool.png" />
                 </StackPanel>
