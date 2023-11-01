@@ -15,6 +15,7 @@ using System.Windows.Shapes;
 using System.Reflection;
 using System.IO;
 using System.Windows.Controls.Primitives;
+using System.Net.Sockets;
 
 
 namespace memory99
@@ -52,9 +53,11 @@ namespace memory99
             this.naam1 = Naam1;
             this.naam2 = Naam2;
             // show the active player
-            Speler2.BorderThickness = new Thickness(0);
-            Speler1.BorderThickness = new Thickness(1);
-            Speler1.BorderBrush = Brushes.Red;
+            Speler2.BorderThickness = new Thickness(6);
+            Speler1.BorderThickness = new Thickness(6);
+            Speler1.BorderBrush = Brushes.DeepPink;
+            Speler1.Background = Brushes.Coral;
+
             // add all images in the list
             images = AddImages(thema);
             this.thema = thema;
@@ -179,15 +182,17 @@ namespace memory99
         {
             if(actieveSpeler == 1)
             {
-                Speler1.BorderThickness = new Thickness(0);
-                Speler2.BorderThickness = new Thickness(1);
-                Speler2.BorderBrush = Brushes.Red;
+                Speler1.BorderThickness = new Thickness(6);
+                Speler2.BorderThickness = new Thickness(6);
+                Speler2.BorderBrush = Brushes.Orange;
+                Speler2.Background = Brushes.Gold;
                 actieveSpeler = 2;
             } else
             {
-                Speler2.BorderThickness = new Thickness(0);
-                Speler1.BorderThickness = new Thickness(1);
-                Speler1.BorderBrush = Brushes.Red;
+                Speler2.BorderThickness = new Thickness(6);
+                Speler1.BorderThickness = new Thickness(6);
+                Speler1.BorderBrush = Brushes.DeepPink;
+                Speler1.Background = Brushes.Coral;
                 actieveSpeler = 1;
             }
             // set all images to the backside of the card if they are not flipped
