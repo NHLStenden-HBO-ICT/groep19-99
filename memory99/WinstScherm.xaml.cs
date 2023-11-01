@@ -32,7 +32,7 @@ namespace memory99
             {
                 Regel1.Content = "Gelijkspel: " + Winnaar;
                 Regel2.Content = "Score: " + ScoreWinnaar;
-                Regel3.Content = "Tweede plaats: " + TweedePlaats;
+                Regel3.Content = "Gelijkspel: " + TweedePlaats;
                 Regel4.Content = "Score: " + ScoreTweedePlaats;
             }
         }

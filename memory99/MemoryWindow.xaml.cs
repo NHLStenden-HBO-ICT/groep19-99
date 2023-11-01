@@ -186,6 +186,7 @@ namespace memory99
                 Speler2.BorderThickness = new Thickness(6);
                 Speler2.BorderBrush = Brushes.Orange;
                 Speler2.Background = Brushes.Gold;
+                Speler1.Background = Brushes.Transparent;
                 actieveSpeler = 2;
             } else
             {
@@ -193,6 +194,7 @@ namespace memory99
                 Speler1.BorderThickness = new Thickness(6);
                 Speler1.BorderBrush = Brushes.DeepPink;
                 Speler1.Background = Brushes.Coral;
+                Speler2.Background = Brushes.Transparent;
                 actieveSpeler = 1;
             }
             // set all images to the backside of the card if they are not flipped
