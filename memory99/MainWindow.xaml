@@ -74,15 +74,7 @@
                 <ColumnDefinition Width="2.5*"/>
             </Grid.ColumnDefinitions>
 
-            <Button x:Name="Geluid" Grid.Column="1" BorderThickness="0" Background="Transparent" Click="Geluid_Click">
-                <StackPanel>
-                    <Image Source="/Huisstijl/LuidsprekerIcon.png" />
-                    <!--<MediaElement x:Name="mediaPlayer" Source="muziekje.mp3" LoadedBehavior="Manual"/>-->
-
-                </StackPanel>
-            </Button>
-
-            <Button x:Name="Uitleg" Grid.Column="3" BorderThickness="0" Background="Transparent" Click="Uitleg_Click">
+            <Button x:Name="Uitleg" Grid.Column="1" BorderThickness="0" Background="Transparent" Click="Uitleg_Click">
                 <StackPanel>
                     <Image Source="/Huisstijl/UitlegIcon.png"/>
                 </StackPanel>

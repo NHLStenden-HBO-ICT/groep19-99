@@ -65,20 +65,6 @@ namespace memory99
             uitlegScherm.Visibility = Visibility.Visible;
         }
 
-        private void Geluid_Click(object sender, RoutedEventArgs e)
-        {
-            //if (muziek == false)
-            //{
-            //    mediaPlayer.Play();
-            //    muziek = true;
-            //}
-
-            //else if (muziek == true)
-            //{
-            //    mediaPlayer.Stop();
-            //    muziek = false;
-            //}
-        }
         private void Spel_Sluiten(object sender, RoutedEventArgs e)
         {
             System.Environment.Exit(0);
