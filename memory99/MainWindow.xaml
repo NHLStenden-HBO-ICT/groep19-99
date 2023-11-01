@@ -56,10 +56,10 @@
                 <ColumnDefinition Width="15*"/>
             </Grid.ColumnDefinitions>
 
-            <Label Grid.Column="1" Content="Naam:" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42"/>
-            <TextBox x:Name ="Speler1" Grid.Column="1" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42" Margin="50,80,50,0" Background="#fff8f5" BorderBrush="#ff3477" VerticalAlignment="Top"/>
+            <Label Grid.Column="1" Content="Naam:" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42" />
+            <TextBox x:Name ="Speler1" Grid.Column="1" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42" BorderThickness="6" Margin="50,80,50,0" Background="#fff8f5" BorderBrush="#ff3477" VerticalAlignment="Top"/>
             <Label Grid.Column="2" Content="Naam:" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42"/>
-            <TextBox x:Name ="Speler2" Grid.Column="2" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42" Margin="50,80,50,0" Background="#fff8f5" BorderBrush="#ffbc37" VerticalAlignment="Top"/>
+            <TextBox x:Name ="Speler2" Grid.Column="2" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" FontSize="42" BorderThickness="6" Margin="50,80,50,0" Background="#fff8f5" BorderBrush="#ffbc37" VerticalAlignment="Top"/>
         </Grid>
 
         <!-- icoontjes -->

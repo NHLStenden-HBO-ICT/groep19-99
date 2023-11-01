@@ -17,10 +17,10 @@
             <RowDefinition Height="20*"/>
             <RowDefinition Height="20*"/>
         </Grid.RowDefinitions>
-        <Label x:Name="Regel1" Grid.Row="0" Content="Winnaar" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="64"/>
-        <Label x:Name="Regel2" Grid.Row="1" Content="Winnaar" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="64"/>
-        <Label x:Name="Regel3" Grid.Row="2" Content="Winnaar" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="64"/>
-        <Label x:Name="Regel4" Grid.Row="3" Content="Winnaar" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="64"/>
+        <Label x:Name="Regel1" Grid.Row="0" Content="Winnaar: " FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="64"/>
+        <Label x:Name="Regel2" Grid.Row="1" Content="Score: " FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="64"/>
+        <Label x:Name="Regel3" Grid.Row="2" Content="Tweede plaats: " FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="64"/>
+        <Label x:Name="Regel4" Grid.Row="3" Content="Score: " FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" FontSize="64"/>
         <!--logo-->
         <Image x:Name="logo" Grid.Column="1" Source="images/logo.png" Width="180" Height="164" HorizontalAlignment="Center" VerticalAlignment="Top"/>
         <!--kruis-->

@@ -19,21 +19,21 @@ namespace memory99
     /// </summary>
     public partial class WinstScherm : Window
     {
-        public WinstScherm(String Winnaar, int ScoreWinnaar, String Verliezer, int ScoreVerliezer,Boolean equal)
+        public WinstScherm(String Winnaar, int ScoreWinnaar, String TweedePlaats, int ScoreTweedePlaats,Boolean equal)
         {
             InitializeComponent();
             if (!equal)
             {
                 Regel1.Content = "Winnaar: " + Winnaar;
                 Regel2.Content = "Score: " + ScoreWinnaar;
-                Regel3.Content = "Verliezer: " + Verliezer;
-                Regel4.Content = "Score: " + ScoreVerliezer;
+                Regel3.Content = "Tweede plaats: " + TweedePlaats;
+                Regel4.Content = "Score: " + ScoreTweedePlaats;
             } else
             {
                 Regel1.Content = "Gelijkspel: " + Winnaar;
                 Regel2.Content = "Score: " + ScoreWinnaar;
-                Regel3.Content = "Gelijkspel: " + Verliezer;
-                Regel4.Content = "Score: " + ScoreVerliezer;
+                Regel3.Content = "Gelijkspel: " + TweedePlaats;
+                Regel4.Content = "Score: " + ScoreTweedePlaats;
             }
         }
 
