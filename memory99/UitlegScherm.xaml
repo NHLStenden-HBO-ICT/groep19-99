@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:memory99"
         mc:Ignorable="d"
-        Title="UitlegScherm" Height="854" Width="1440">
+        Title="UitlegScherm" Height="854" Width="1440" WindowState="Maximized" WindowStyle="None">
     <Grid Background="#fff8f5">
         <!--Titel-->
         <TextBlock Text="Uitleg" FontFamily="/Font/BreeSerif-Regular.otf#Bree Serif" Foreground="#bf4d4d" TextAlignment="Center" FontSize="128"/>
