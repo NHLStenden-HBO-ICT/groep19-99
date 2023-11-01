@@ -79,5 +79,9 @@ namespace memory99
             //    muziek = false;
             //}
         }
+        private void Spel_Sluiten(object sender, RoutedEventArgs e)
+        {
+            System.Environment.Exit(0);
+        }
     }
 }
