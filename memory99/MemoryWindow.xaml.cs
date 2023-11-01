@@ -277,6 +277,14 @@ namespace memory99
         {
             this.Close();
         }
+
+
+        private void Return_Click_1(object sender, RoutedEventArgs e)
+        {
+            MemoryWindow win = new MemoryWindow(naam1, naam2, thema);
+            win.Show();
+            this.Close();
+        }
     }
 
 }
