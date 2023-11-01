@@ -67,7 +67,9 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2.5*"/>
                 <ColumnDefinition Width="7.5*"/>
-                <ColumnDefinition Width="70*"/>
+                <ColumnDefinition Width="37.25*"/>
+                <ColumnDefinition Width="7.5*"/>
+                <ColumnDefinition Width="37.25*"/>
                 <ColumnDefinition Width="7.5*"/>
                 <ColumnDefinition Width="2.5*"/>
             </Grid.ColumnDefinitions>
@@ -85,7 +87,12 @@
                     <Image Source="/Huisstijl/UitlegIcon.png"/>
                 </StackPanel>
             </Button>
-
+            
+            <Button x:Name="Afsluiten" Grid.Column="5" Background="Transparent" Click="Spel_Sluiten">
+                <StackPanel>
+                    <Image Source="/images/kruis symbool.png" />
+                </StackPanel>
+            </Button>
         </Grid>
     </Grid>
 </Window>
