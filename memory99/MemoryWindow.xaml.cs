@@ -160,7 +160,7 @@ namespace memory99
                     winst.Visibility = Visibility.Visible;
                 } else if(scoreSpeler1 < scoreSpeler2)
                 {
-                    WinstScherm winst = new WinstScherm(naam2, scoreSpeler2, naam2, scoreSpeler1,false);
+                    WinstScherm winst = new WinstScherm(naam2, scoreSpeler2, naam1, scoreSpeler1,false);
                     winst.Left = this.Left;
                     winst.Top = this.Top;
                     winst.Height = this.Height;
